@@ -1,2 +1,2 @@
-# testing
+# Testing
 This is where all my public trash/test code goes
