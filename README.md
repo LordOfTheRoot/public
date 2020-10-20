@@ -1,2 +1,2 @@
-# Testing
-This is where all my public trash/test code goes
+# Public
+This is where all my public code goes
