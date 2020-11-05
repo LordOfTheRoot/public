@@ -5,11 +5,10 @@ import requests
 
 def main():
     NORDVPN = True
-    if NORDVPN == True:
-        try:
-            OUTPUT = os.popen("nordvpn status").read()
-        except:
-            NORDVPN = False
+    try:
+        OUTPUT = os.popen("nordvpn status").read()
+    except:
+        NORDVPN = False
     try:
         R = requests.get("https://ifconfig.io/ip")
         IP = "IP: "+R.text.split("\n")[0]
